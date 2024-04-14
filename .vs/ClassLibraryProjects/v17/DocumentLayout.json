@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36D42411-9E5C-4722-9381-07BCC467C679}|StringLibrary\\StringLibrary.csproj|c:\\users\\daros\\source\\repos\\classlibraryprojects\\stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D42411-9E5C-4722-9381-07BCC467C679}|StringLibrary\\StringLibrary.csproj|solutionrelative:stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0367DF69-381B-49E2-BE0B-9D77859323BF}|ShowCase\\ShowCase.csproj|c:\\users\\daros\\source\\repos\\classlibraryprojects\\showcase\\showcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0367DF69-381B-49E2-BE0B-9D77859323BF}|ShowCase\\ShowCase.csproj|solutionrelative:showcase\\showcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0367DF69-381B-49E2-BE0B-9D77859323BF}|ShowCase\\ShowCase.csproj|c:\\users\\daros\\source\\repos\\classlibraryprojects\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0367DF69-381B-49E2-BE0B-9D77859323BF}|ShowCase\\ShowCase.csproj|solutionrelative:showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36D42411-9E5C-4722-9381-07BCC467C679}|StringLibrary\\StringLibrary.csproj|c:\\users\\daros\\source\\repos\\classlibraryprojects\\stringlibrary\\stringlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{36D42411-9E5C-4722-9381-07BCC467C679}|StringLibrary\\StringLibrary.csproj|solutionrelative:stringlibrary\\stringlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D42411-9E5C-4722-9381-07BCC467C679}|StringLibrary\\StringLibrary.csproj|c:\\users\\daros\\source\\repos\\classlibraryprojects\\stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D42411-9E5C-4722-9381-07BCC467C679}|StringLibrary\\StringLibrary.csproj|solutionrelative:stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +36,7 @@
         },
         {
           "DockedWidth": 126,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,18 +48,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowCase",
+              "DocumentMoniker": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+              "RelativeDocumentMoniker": "ShowCase\\ShowCase.csproj",
+              "ToolTip": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\ShowCase\\ShowCase.csproj",
+              "RelativeToolTip": "ShowCase\\ShowCase.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-14T23:34:48.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\ShowCase\\Program.cs",
+              "RelativeDocumentMoniker": "ShowCase\\Program.cs",
+              "ToolTip": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\ShowCase\\Program.cs",
+              "RelativeToolTip": "ShowCase\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T23:33:14.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StringLibrary",
               "DocumentMoniker": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
               "RelativeDocumentMoniker": "StringLibrary\\StringLibrary.csproj",
               "ToolTip": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
               "RelativeToolTip": "StringLibrary\\StringLibrary.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-14T06:42:03.42Z"
+              "WhenOpened": "2024-04-14T06:42:03.42Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\daros\\source\\repos\\ClassLibraryProjects\\StringLibrary\\Class1.cs",
               "RelativeDocumentMoniker": "StringLibrary\\Class1.cs",
