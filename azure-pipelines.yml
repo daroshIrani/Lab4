@@ -1,0 +1,52 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'  # Use the appropriate hosted agent (e.g., ubuntu-latest for Linux)
+
+steps:
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: '6.9.1'  # Install the required version of NuGet
+
+- task: DotNetCoreCLI@2
+  displayName: 'Restore NuGet packages'
+  inputs:
+    command: 'restore'
+    projects: 'StringLibrary/StringLibrary.csproj'  # Specify your project file(s)
+
+- task: DotNetCoreCLI@2
+  displayName: 'Build project'
+  inputs:
+    command: 'build'
+    projects: 'StringLibrary/StringLibrary.csproj'  # Specify your project file(s)
+    arguments: '--configuration Release'  # Optional
+
+- task: DotNetCoreCLI@2
+  displayName: 'Pack project'
+  inputs:
+    command: 'pack'
+    packagesToPack: 'StringLibrary/StringLibrary.csproj'  # Specify your project file(s)
+    versioningScheme: 'off'
+    configuration: 'Release'
+    outputDir: '$(Build.ArtifactStagingDirectory)'  # Location to save the NuGet package
+    includesymbols: true  # Optional
+
+- task: NuGetAuthenticate@0
+  displayName: 'Authenticate with Azure Artifacts'
+  inputs:
+    feedName: 'NewFeed1'  # Replace with the name of your feed
+    nuGetServiceEndpoint: 'SystemVssConnection'
+
+- task: NuGetCommand@2
+  displayName: 'Publish NuGet package'
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'  # Location of the package(s)
+    feedName: 'NewFeed1'  # Replace with the name of your feed
+    allowPackageBecomingUnlisted: false
